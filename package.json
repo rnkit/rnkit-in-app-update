@@ -1,0 +1,30 @@
+{
+  "name": "rnkit-in-app-update",
+  "description": "InApp Update for react-native",
+  "main": "lib/index.js",
+  "author": "SimMan <liwei0990@gmail.com>",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "homepage": "https://github.com/rnkit/rnkit-in-app-update",
+  "bugs": "https://github.com/rnkit/rnkit-in-app-update/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rnkit/rnkit-in-app-update"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "excard",
+    "rnkit",
+    "inapp",
+    "update"
+  ],
+  "peerDependencies": {
+    "react": ">=15.3.1",
+    "react-native": ">=0.28"
+  },
+  "license": "MIT"
+}
