@@ -3,7 +3,7 @@
   "description": "InApp Update for react-native",
   "main": "lib/index.js",
   "author": "SimMan <liwei0990@gmail.com>",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "test": "npm run test"
   },
