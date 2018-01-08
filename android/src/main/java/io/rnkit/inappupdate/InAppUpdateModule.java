@@ -70,8 +70,15 @@ public class InAppUpdateModule extends ReactContextBaseJavaModule implements Dow
     }
 
     @ReactMethod
-    public void installApk() {
+    public void installApk(final String apkLocalPath) {
         DownloadUtil.getInstance().installAPK(getCurrentActivity(), apkLocalPath);
+    }
+
+    @Override
+    public void startDownloadCallback() {
+        getReactApplicationContext()
+                .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
+                .emit("RNKitApkStartDownload", null);
     }
 
     @Override
